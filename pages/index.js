@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import "../styles.scss";
+import { CliniaForm } from "../components/CliniaForm/CliniaForm";
 
 export default class Index extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class Index extends React.Component {
         <div style={{ textAlign: "center" }} className="example">
           Hello World {this.props.userAgent}
         </div>
+        <CliniaForm />
       </div>
     );
   }
