@@ -12,7 +12,7 @@ export default class Index extends React.Component {
           <title>Appointment Form</title>
         </Head>
         <div style={{ textAlign: "center" }} className="example">
-          Hello World {this.props.userAgent}
+          Request an Appointment {this.props.userAgent}
         </div>
         <CliniaForm />
       </div>
